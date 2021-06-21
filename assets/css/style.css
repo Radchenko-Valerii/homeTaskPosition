@@ -1,0 +1,27 @@
+ul{
+  font-size: 0;
+}
+
+li{
+  border: 1px solid #2ba35d;
+  display: inline-block;
+}
+a{
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(91, 182, 91);
+  padding: 20px 65px;
+}
+
+
+:hover.item{
+  background-color: #2ba35d;
+}
+
+.sub-item-list{
+  position: absolute;
+  display: none;
+}
