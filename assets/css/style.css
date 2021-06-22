@@ -1,6 +1,5 @@
 *{
   padding: 0;
-  padding-left: ;
   margin: 0;
 }
 
@@ -23,30 +22,52 @@ header{
 
 .nav-list{
   display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-top: 17px;
-}
-
-.nav-list {
   position: relative;
-  text-decoration: none;
   background-color: green;
-  color: whitesmoke;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  padding: 20px 60px;
   text-align: center;
   margin-top: 10px;
   border-right: 1px solid rgb(110, 219, 110);
   border-left: 1px solid rgb(110, 219, 110);
 }
 
-.nav-list:hover{
+.link-nav-list{
+  padding: 20px 60px;
+ text-decoration: none;
+ color: whitesmoke;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+}
+
+.nav-list:hover, .line-sub-link-nav-list:hover{
   background-color: rgb(110, 219, 110);
   color: rgb(0, 102, 0);
 }
 
 .sub-link-nav-list{
   display: none;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.line-sub-link-nav-list{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  background-color: green;
+  text-align: center;
+  border-bottom: 1px solid rgb(110, 219, 110);
+  border-top: 1px solid rgb(110, 219, 110);
+}
+
+.link-line-sub-link-nav-list{
+   text-decoration: none;
+   color: whitesmoke;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
 }
 
 .nav-list:hover > .sub-link-nav-list{
